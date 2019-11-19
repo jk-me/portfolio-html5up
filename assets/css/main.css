@@ -11,6 +11,15 @@
 	text-align: left;
 }
 
+.top-img{
+	position:absolute;
+	z-index: 999;
+	transition-duration: 0.5s;
+}
+.top-img:hover{
+	opacity: 0;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1773,6 +1782,7 @@ input, select, textarea {
 			border: 1px solid #cccccc;
 			display: block;
 			width: 100%;
+			position: relative;
 		}
 
 		.image.featured {
